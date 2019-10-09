@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="2dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/house_image"
+        android:contentDescription="displayed_house_image"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        />
+
+    <View
+        android:id="@+id/propertyNameIcon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/house_image"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/home" />
+
+        <TextView
+            android:id="@+id/property_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+           android:layout_marginBottom="1dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@id/house_image"
+            android:layout_alignBottom="@id/propertyNameIcon"
+            android:layout_toRightOf="@id/propertyNameIcon"
+            android:text="name of property"
+            android:textSize="20sp" />
+
+    <View
+        android:id="@+id/houseLocationIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/location"
+        android:layout_below="@id/property_name"
+        />
+
+        <TextView
+            android:id="@+id/hse_location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/houseLocationIcon"
+            android:layout_toRightOf="@id/houseLocationIcon"
+           android:layout_marginBottom="4dp"
+            android:text="location"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+
+            />
+
+    <View
+        android:id="@+id/houseDescriptionIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/houseLocationIcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/description"
+        />
+
+        <TextView
+            android:id="@+id/hse_description"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignTop="@id/houseDescriptionIcon"
+            android:layout_toRightOf="@id/houseDescriptionIcon"
+            android:layout_height="wrap_content"
+            android:text="This is very nice house but dont think you can really buy it , really"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/rent"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/rent"
+            android:layout_toRightOf="@id/property_name"
+            android:layout_below="@id/house_image"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:text="Rent"
+            />
+
+        <TextView
+            android:id="@+id/display_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/house_image"
+            android:textSize="15sp"
+            android:text="20000"
+            />
+
+
+        <!--
+        <TextView
+            android:id="@+id/available_units"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 units left"
+            android:layout_below="@id/edit_house_data"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+-->
+            />
+
+
+</RelativeLayout>

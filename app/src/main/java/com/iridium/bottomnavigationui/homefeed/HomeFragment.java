@@ -1,8 +1,7 @@
-package com.iridium.bottomnavigationui;
+package com.iridium.bottomnavigationui.homefeed;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;

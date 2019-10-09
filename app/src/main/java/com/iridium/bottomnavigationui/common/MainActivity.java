@@ -1,4 +1,4 @@
-package com.iridium.bottomnavigationui;
+package com.iridium.bottomnavigationui.common;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -8,6 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.iridium.bottomnavigationui.homefeed.HomeFragment;
+import com.iridium.bottomnavigationui.NewHouseFragment;
+import com.iridium.bottomnavigationui.ProfileFragment;
+import com.iridium.bottomnavigationui.R;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -49,6 +53,10 @@ public class MainActivity extends AppCompatActivity
 
                         case R.id.nav_account:
                             selectedFragment = new ProfileFragment();
+                            break;
+
+                        case R.id.nav_more:
+                      //      selectedFragment = new ProfileFragment();
                             break;
 
                     }
