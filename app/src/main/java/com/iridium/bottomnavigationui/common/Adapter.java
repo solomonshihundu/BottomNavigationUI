@@ -1,4 +1,4 @@
-package com.iridium.bottomnavigationui.homefeed;
+package com.iridium.bottomnavigationui.common;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.iridium.bottomnavigationui.R;
-import com.iridium.bottomnavigationui.common.House;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -86,37 +85,51 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>
         public void setHouseDescription(String houseDescription) {
             this.houseDescription = mView.findViewById(R.id.hse_description);
             this.houseDescription.setText(houseDescription);
+
         }
 
         public void setBedrooms(String bedrooms) {
             this.bedrooms = mView.findViewById(R.id.hse_description);
             this.bedrooms.setText(bedrooms);
+
         }
 
         public void setFloorSpace(String floorSpace) {
             this.floorSpace = mView.findViewById(R.id.hse_description);
             this.floorSpace.setText(floorSpace);
+
         }
 
         public void setParkingSlots(String parkingSlots) {
             this.parkingSlots = mView.findViewById(R.id.hse_description);
             this.parkingSlots.setText(parkingSlots);
+
         }
 
         public void setRent(String rent) {
             this.rent = mView.findViewById(R.id.display_rent);
             this.rent.setText(rent);
+
         }
 
-        public void setImage(String imageUrl)
-        {
+        public void setImage(String imageUrl) {
             image = mView.findViewById(R.id.house_image);
-            Picasso.get().load(imageUrl).into(image);
+      //      Picasso.get().load(imageUrl).into(image);
+
+
+            Glide
+                    .with(mView.getContext())
+                    .load(imageUrl)
+                    .centerCrop()
+                    .placeholder(R.drawable.house_photo_placeholder)
+                    .into(image);
+
         }
 
         public void setLocation(String location) {
             this.location = mView.findViewById(R.id.hse_location_txt);
             this.location.setText(location);
+
         }
     }
 }

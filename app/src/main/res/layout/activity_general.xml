@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".listing.add_house.General">
+
+    <TextView
+        android:id="@+id/titleGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Details"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/houseNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whats the name of your property ?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/houseNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/houseDescTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write a brief description of your property ?"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/houseDescEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:lines="2"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/houseLocationTxt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:text="Where is your property located ?"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/houseLocationEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lines="1"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_btn"
+
+
+
+        />
+
+</LinearLayout>

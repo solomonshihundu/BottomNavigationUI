@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".new_house.Utilities">
+
+    <TextView
+        android:id="@+id/titleUtilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilities"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/houseRentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much do you rent your house ?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/houseRentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/houseUnitsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many units of this kind of house are available ?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/houseUnitsEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/houseParkingTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many parking slots are available per house ?"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/houseParkingEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/houseBathroomsTxt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:text="How many bathrooms are there available ?"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/houseBathroomsEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:background="@drawable/bordered_edit_text"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:lines="1"
+
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:paddingTop="5dp"
+        android:background="@drawable/rounded_btn"
+        android:layout_marginBottom="20dp"
+
+        />
+
+</LinearLayout>

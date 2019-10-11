@@ -1,0 +1,180 @@
+{
+  "project_info": {
+    "project_number": "277556353684",
+    "firebase_url": "https://kejaafrica-1.firebaseio.com",
+    "project_id": "kejaafrica-1",
+    "storage_bucket": "kejaafrica-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556353684:android:5ceadf193e63381167f281",
+        "android_client_info": {
+          "package_name": "com.divisions.kejaafrica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CEd4eoBUqVXJi455cQaZcH1-xzZjF5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556353684:android:ae868d72d571648f67f281",
+        "android_client_info": {
+          "package_name": "com.iridium.bottomnavigationui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CEd4eoBUqVXJi455cQaZcH1-xzZjF5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556353684:android:d70b5130297c1293",
+        "android_client_info": {
+          "package_name": "com.iridium.firebasesearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556353684-ug7lpd3colv3927g60brm623p3k0g9c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iridium.firebasesearch",
+            "certificate_hash": "8c2b939ae1cc35a7972dd2b22074378f77e5489b"
+          }
+        },
+        {
+          "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CEd4eoBUqVXJi455cQaZcH1-xzZjF5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556353684:android:99e4e44882eb193367f281",
+        "android_client_info": {
+          "package_name": "com.iridium.houselisting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556353684-3jg34o4p87d3s203v7fl511jpc3rl803.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iridium.houselisting",
+            "certificate_hash": "8c2b939ae1cc35a7972dd2b22074378f77e5489b"
+          }
+        },
+        {
+          "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CEd4eoBUqVXJi455cQaZcH1-xzZjF5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277556353684:android:1f019da60ca8a906",
+        "android_client_info": {
+          "package_name": "com.iridium.mediaaccess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277556353684-ogi9g62422v2nt6qq39bomp4pb2ufell.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iridium.mediaaccess",
+            "certificate_hash": "8c2b939ae1cc35a7972dd2b22074378f77e5489b"
+          }
+        },
+        {
+          "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6CEd4eoBUqVXJi455cQaZcH1-xzZjF5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277556353684-vfp8hp3fdln84qlkf6k3oml1ttnavs7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
